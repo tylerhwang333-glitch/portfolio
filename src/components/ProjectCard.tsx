@@ -14,16 +14,18 @@ function initials(title: string) {
 
 function Thumbnail({ project }: { project: Project }) {
   if (project.image) {
+    // Screenshots come in a range of aspect ratios, so each sits whole inside a
+    // uniform frame (object-contain) rather than being cropped to fill it.
     return (
-      <img
-        src={project.image}
-        alt={project.imageAlt || `Screenshot of ${project.title}`}
-        width={1280}
-        height={720}
-        loading="lazy"
-        decoding="async"
-        className="aspect-video w-full border-b border-line object-cover"
-      />
+      <div className="flex aspect-video w-full items-center justify-center overflow-hidden border-b border-line bg-surface-2 p-3 sm:p-4">
+        <img
+          src={project.image}
+          alt={project.imageAlt || `Screenshot of ${project.title}`}
+          loading="lazy"
+          decoding="async"
+          className="max-h-full max-w-full rounded-md object-contain shadow-sm ring-1 ring-line"
+        />
+      </div>
     )
   }
   // Fallback tile: decorative, so hidden from screen readers (the title is right below it).
