@@ -13,8 +13,8 @@ export const content: SiteContent = {
     location: 'San Jose, CA',
     email: 'tylerhwang333@gmail.com',
     github: 'https://github.com/tylerhwang333-glitch',
-    linkedin: '', // TODO: add your LinkedIn URL
-    resume: '/resume.pdf',
+    linkedin: 'https://www.linkedin.com/in/tyler-hwang-b0275a380/', // TODO: add your LinkedIn URL
+    resume: '/screenshots/TylerResumeV2.pdf',
   },
 
   projects: [
@@ -29,9 +29,9 @@ export const content: SiteContent = {
         'Claude-generated coaching reports and drills with a deterministic fallback.',
         'Full stack in Docker Compose behind Nginx.',
       ],
-      github: '', // TODO
+      github: 'https://github.com/tylerhwang333-glitch/berkeleyai-2026', // TODO
       demo: '',
-      image: '',
+      image: '/screenshots/rankupPhoto.webp',
     },
     {
       title: 'Restaurant Finder',
@@ -42,9 +42,9 @@ export const content: SiteContent = {
         'Live Leaflet map with category filters and geolocation search.',
         '"Surprise Me" random pick with a case-opening reel animation.',
       ],
-      github: '', // TODO
-      demo: '', // TODO
-      image: '',
+      github: 'https://github.com/tylerhwang333-glitch/restuarantFinder', // TODO
+      demo: 'https://restuarant-finder-mxiv.vercel.app/', // TODO
+      image: '/screenshots/restaurantFinder.webp',
     },
     {
       title: 'Compass',
@@ -56,9 +56,9 @@ export const content: SiteContent = {
         'Mock localStorage adapter alongside an HTTP adapter, switched by one env variable.',
         'Shared API types across composer, review, and timeline views.',
       ],
-      github: '', // TODO
-      demo: '',
-      image: '',
+      github: 'https://github.com/Cheemasukh962/LoopHack2026', // TODO
+      demo: 'http://loop-hack2026.vercel.app/',
+      image: '/screenshots/Compass.webp',
     },
     {
       title: 'Internship Alert Bot',
@@ -69,9 +69,9 @@ export const content: SiteContent = {
         'Dedup key that normalizes company and title text across sources.',
         'GitHub Actions schedule that persists seen-listing state back to the repo.',
       ],
-      github: '', // TODO
+      github: 'https://github.com/tylerhwang333-glitch/software-openings', // TODO
       demo: '',
-      image: '',
+      image: '/screenshots/internshipBot.webp',
     },
   ],
 
