@@ -14,7 +14,7 @@ export const content: SiteContent = {
     email: 'tylerhwang333@gmail.com',
     github: 'https://github.com/tylerhwang333-glitch',
     linkedin: 'https://www.linkedin.com/in/tyler-hwang-b0275a380/', // TODO: add your LinkedIn URL
-    resume: '/screenshots/resumeWeb.pdf',
+    resume: '/screenshots/ResumeWeb.pdf',
   },
 
   projects: [
